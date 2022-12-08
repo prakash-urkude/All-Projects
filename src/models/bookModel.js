@@ -19,6 +19,10 @@ const bookSchema = new mongoose.Schema({
         trim: true
 
     },
+    bookCover: {
+        type:String,
+        required:true
+    },
     ISBN: {
         type: String,
         required: true,
