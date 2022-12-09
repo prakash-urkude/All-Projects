@@ -63,7 +63,7 @@ const createCollege = async function (req, res) {
 //__________________________ Get Api : Getcollegedata  ___________________________________________
 
 const Getcollegedata = async function (req, res) {
-  res.setHeader('Access-Control-Allow-Origin','*')
+ // res.setHeader('Access-Control-Allow-Origin','*')
   try {
     const collegeName = req.query.collegeName
     if (!collegeName) {
